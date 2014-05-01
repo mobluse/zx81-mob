@@ -1,0 +1,31 @@
+  10 REM  SAVE  CONT SQR %T\' \' >=VAL \' ???????\' ??\' IP\' ZCFLSV?\' \.:%>%9??\!!%.%JLN %V\ '??GC SAVE VAL LN %X\:'5\.:RND;SGN  RETURNCSQR ?XC CONT LN ABS RNDPEEK  COPYLN ABS RND?<= RETURN RETURN?4 LET /NOT Y\ '?( RETURNX4 IF TAN      
+  15 GOSUB 60
+  20 FAST
+  30 RAND USR 16553
+  50 IF INKEY$ <>" STOP" THEN GOTO 30
+  52 CLS
+  53 SLOW
+  55 STOP
+  60 CLS
+  62 PRINT "     \:'\''\''\''\''\''\''\''\''\''\''\''\''\''\''\''\''\''\':"
+  63 PRINT "     \:                  \ :"
+  65 PRINT "     \:  E L - O R G E L \ :"
+  70 PRINT "     \:                  \ :"
+  80 PRINT "     \:.\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\.:"
+  90 PRINT AT 8,0;"MED DETTA PROGRAM KAN DU SPELA"
+ 100 PRINT "MELODIER PA TANGENT BORDET."
+ 103 PRINT 
+ 105 PRINT " TILL EXEMPEL:"
+ 110 PRINT " %X = C(1), %S%P%C = C(2), %4 = FISS"
+ 120 PRINT 
+ 130 PRINT "NAR DU VILL AVBRYTA SPELANDET"
+ 140 PRINT "TRYCKER DU PA %S%H%I%F%T-%A"
+ 150 PRINT 
+ 151 PRINT "ANGAENDE LJUDET, FRAGA MIKAEL"
+ 152 PRINT 
+ 155 PRINT 
+ 160 PRINT "TRYCK PA %N%/%L NAR DU VILL STARTA"
+ 170 IF INKEY$ =CHR$ 118 THEN RETURN
+ 180 GOTO 170
+ 200 SAVE "EL-ORGE%L"
+ 210 RUN 
