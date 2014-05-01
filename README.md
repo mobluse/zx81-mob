@@ -5,10 +5,11 @@ Programs for ZX81. Mostly in BASIC.
 
 About LICENSE: Only the patch-files to the original files are covered by this license. The whole patched file is shown here but you can generate the patch. The original files can be found on various sites e.g. http://www.atariarchives.org/morebasicgames/ and have their licenses. Some files are completely my own and they have the LICENSE for the whole program and not just for the changes.
 
+There is an App-Store for ZX81 here:  
 http://www.df.lth.se.orbin.se/~mikaelb/sinclair/zx81/
 
-##A ZX81 App Store in English 
 
+##A ZX81 App Store in English 
 Here are applications, documents, and emulators for the Sinclair ZX81 personal
 computer.
 
@@ -80,7 +81,7 @@ white TV.
 As secondary memory the ZX81 doesn't use hard drives, floppy disks or flash 
 memory, but a cassette player. All programs in this app store are sampled from 
 cassettes. I have a similar app-store for ABC80 here:  
-http://www.df.lth.se/mikaelb/abc/80/. 
+http://www.df.lth.se.orbin.se/~mikaelb/abc/80/. 
 
 With the ZX81 both a short Swedish and complete English manual was included
 and the English is here:  
@@ -125,5 +126,5 @@ energy-efficient way without it becoming meaningless because the graphics
 
 
 Sincerely,  
-// Mikael O. Bonnier, @MOB_i_L on Twitter,   
+// Mikael O. Bonnier, [@MOB_i_L](https://twitter.com/MOB_i_L) on Twitter,   
 // http://www.df.lth.se.orbin.se/~mikaelb/
