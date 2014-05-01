@@ -1,0 +1,7 @@
+   1 REM "
+   3 REM ZX SPECTRUM BASIC PROGRAMMING (1983), CH 9, P 59
+   5 LET Q$=CHR$ PEEK 16514
+   7 REM  PRINT VAL "VAL ""2"""
+  10 PRINT VAL ("VAL "+Q$+"2"+Q$)
+  15 REM  PRINT VAL "VAL ""VAL """"2"""""""
+  20 PRINT VAL ("VAL ("+Q$+"VAL "+Q$+"+Q$+"+Q$+"2"+Q$+"+Q$)")
