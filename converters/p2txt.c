@@ -2,7 +2,7 @@
  * PD by RJM 1993
  * cleaned up and ansified 960504
  * Made output compatible with ZXText2P by MOB 2014-May-01.
- * Indentation is from the original:
+ * Minimal changes. Indentation is from the original:
  * ftp://ftp.worldofspectrum.org/pub/sinclair/zx81/tools/amiga/
  * Compile in Linux using:
  * gcc p2txt.c -o p2txt
