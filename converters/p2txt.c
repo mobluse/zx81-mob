@@ -1,7 +1,7 @@
 /* p2txt - list xtender/Z81 format .p file
  * PD by RJM 1993.
  * Cleaned up and ansified 960504.
- * Made output compatible with ZXText2P by MOB 2014-May-02.
+ * Made output compatible with ZXText2P by MOB 2014-May-03.
  * GPLv3+ by MOB 2014.
  * NO WARRANTY OF ANY KIND.
  * The original:
