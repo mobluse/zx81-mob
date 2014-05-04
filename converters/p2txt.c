@@ -1,7 +1,7 @@
 /* p2txt - list xtender/Z81 format .p file
  * PD by RJM 1993.
  * Cleaned up and ansified 960504.
- * Made output compatible with ZXText2P by MOB 2014-May-03.
+ * Made output compatible with ZXText2P by MOB 2014-May-04.
  * GPLv3+ by MOB 2014.
  * NO WARRANTY OF ANY KIND.
  * The original:
@@ -15,7 +15,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define NAK "#"
+#define NAK "|"
 
 unsigned char linebuf[32768]; /* BIG buffer for those lovely m/c REMs */
 
@@ -26,7 +26,7 @@ unsigned char linebuf[32768]; /* BIG buffer for those lovely m/c REMs */
 
 char *charset[256]={
 /* 000-009 */ " ","\\' ","\\ '","\\''","\\. ","\\: ","\\.'","\\:'","\\##","\\,,",
-/* 010-019 */ "\\~~","\"","£","$",":","?","(",")",">","<",
+/* 010-019 */ "\\~~","\"","#","$",":","?","(",")",">","<",
 /* 020-029 */ "=","+","-","*","/",";",",",".","0","1",
 /* 030-039 */ "2","3","4","5","6","7","8","9","A","B",
 /* 040-049 */ "C","D","E","F","G","H","I","J","K","L",
@@ -96,7 +96,8 @@ void xlatline(int linelen) {
  			else
 				if(linebuf[0]==234) {
 					if(f!=0 && strlen(charset[linebuf[f]])>1 
-						&& *charset[linebuf[f]]!='\\')
+						&& *charset[linebuf[f]]!='\\'
+						&& *charset[linebuf[f]]!='%')
 						printf("\\%02X", linebuf[f]);
 					else
 						printf("%s",charset[linebuf[f]]);
