@@ -131,3 +131,120 @@ energy-efficient way without it becoming meaningless because the graphics
 Sincerely,  
 // Mikael O. Bonnier, [@mobluse](https://twitter.com/mobluse) on Twitter,   
 // http://www.df.lth.se.orbin.se/~mikaelb/
+
+
+##A ZX81 App-Store in Swedish
+Här finns program, dokument och en emulator för datorn Sinclair ZX81.
+
+Sinclair ZX81 presenteras på svenska i filen zx81_beckman.pdf. En unik fördel
+med ZX81 är att den bara har 8 KB ROM (inklusive 4 KB för flyttal) och 
+fyra integrerade kretsar (IC): CPU, ROM, RAM och en specialtillverkad (som dock 
+kan byggas upp av standardkretsar). Numera kan man bygga en ZX81-emulator 
+(AX81) med bara en enchipsdator (AVR) som enda IC. I mob-i-l_zx81.pdf finns 
+en samling artiklar från tidskrifter men även en del dokument och ritningar jag
+producerade själv i början av 80-talet.
+
+I katalogen mob-i-l och underkataloger finns program i form av P-filer 
+som jag själv utvecklat eller portat från program till andra datorer. 
+Där finns även en del program med okänt ursprung. Nästan alla program där 
+skrevs i början av 80-talet.
+
+I katalogen mob-i-l/zx_forth_scr finns "skärmar" (d.v.s. block med 
+programkod i FORTH). Det är besvärligt att köra ZXFORTH-program i emulatorer
+men man kan i mer avancerade emulatorer ladda skärmar till valfria adresser i
+minnet och kompilera dem där.
+
+I katalogen yc finns program som kommer från tidningen Your Computer. Artiklarna
+som programmen kommer ifrån finns att läsa i ett arkiv man hittar via
+http://en.wikipedia.org/wiki/Your_Computer_(British_magazine) .
+
+Dock är alla program inskrivna av mig utom editor i 
+mob-i-l/zx_forth_scr-katalogen och programmen i artic-katalogen. 
+I många fall finns png-filer med en bild på programlistningen eller 
+skärmdumpar.
+
+En emulator, Zed Ex, för Android-telefoner och -surfplattor finns i katalogen 
+android men det är bättre att hämta denna från Google Play om man har denna
+tjänst i sin Android ty då får man uppdateringar automatiskt (men vissa 
+billigare surfplattor har ej tillgång till Google Play).
+
+Man kan i Android med webbläsaren Opera Mini klicka på P-filerna för att ladda
+ner dem till telefonen/surfplattan. Sedan kan man med en filhanterare flytta
+filerna från nedladdningskatalogen (t.ex. download) till en katalog man själv
+skapat på SD-kortet, t.ex. med namnet zx81. I ZX81-emulatorn Zed Ex laddar
+man program genom att trycka på Meny-knappen och sedan klicka på Load och
+välja en P-fil som laddas och ibland startas automatiskt. Om programmet
+inte startar automatiskt skall man oftast trycka på R på skärmtangentbordet
+(vilket skriver RUN) och därefter trycka på NEW LINE. Ibland skall program
+startas med GOTO 0 för att man inte skall radera data som finns i variabler.
+
+En annan emulator är EightyOne för Windows men den fungerar i Linux med Wine
+och förmodligen också i Mac OS X med Wine. EightyOne finns här:
+http://www.chuntey.com/. Det finns även en nyare version av denna som 
+man kan hitta via forumet: http://www.rwapservices.co.uk/ZX80_ZX81/forums/.
+
+Det finns en emulator för Linux: sz81: http://sz81.sourceforge.net/. På
+köpet får man då emulatorn xz81 vilken är den jag oftast brukar köra i
+Linux eftersom den är energisnål. Det finns ett Debian-paket för xz81 i 
+katalogen ubuntu om man inte själv vill kompilera.
+
+Det finns även ZX81-emulatorer för de flesta andra OS, t.ex. MS-DOS, 
+Mac OS 7 m.fl.
+
+Ett annat forum för ZX81 är nntp:comp.sys.sinclair som bl.a. kan läsas på
+http://groups.google.com/group/comp.sys.sinclair/.
+
+Jag köpte ZX81 som byggsats i december 1981 efter flera månaders kö när jag 
+var 15 år. Jag gick sedan hösten 1981 en kurs i BASIC-programmering med
+ABC80 på min grundskola (d.v.s. s.k. fritt valt arbete/elevens val).
+I början fick jag sitta på golvet framför familjens TV, men efter några
+månader fick jag råd med en begagnad 12-tums svartvit TV.
+
+Som sekundärminne använde man inte hårddiskar, disketter eller flashminne,
+utan kassettbandspelare. Alla programmen i denna app-butik är samplade från 
+kassetter. Jag har en liknande app-store för ABC80 här:
+http://www.df.lth.se.orbin.se/~mikaelb/abc/80/.
+
+Med ZX81 följde både en kortare svensk och fullständigare engelsk manual 
+och den engelska finns bl.a. här: 
+ftp://ftp.worldofspectrum.org/pub/sinclair/books/ZX81BASICProgramming.pdf .
+
+Jag rekommenderar alla som kan engelska någerlunda väl att läsa den boken. 
+Man lär sig inte så mycket onödigt och BASIC-funktionerna finns i SQL, 
+vilket alla programutvecklare ändå måste kunna. Dock behöver man inte memorera 
+detaljerna om minneslayouten och systemvariablerna, ty de är naturligtvis 
+annorlunda på aktuella system.
+
+Alternativt kan man satsa på att läsa manualen till ZX Spectrum (efterföljaren
+till ZX81) som även finns på svenska och har samma författare (Steven Vickers)
+men Spectrum är en mer avancerad dator (16 KB ROM med flyttal) än ZX81. Samma 
+författare har även skrivit manualen till Forth-datorn Jupiter Ace (8 KB med
+flyttal men ej t.ex. sin, log o.s.v.) samt har utvecklat delar av ROM:en till 
+datorerna (och i vissa fall hela). Föregångaren till ZX81: ZX80 (4 KB ROM och 
+utan flyttal), har troligen också en intressant manual men den är skriven av 
+en annan författare.
+
+Det finns en videokurs för ZX Spectrum som troligen även är nyttig för dem
+som vill lära sig ZX81:
+Master Class - Sinclair ZX Spectrum: Introduction to Programming Level 1 & 2:
+http://www.worldofspectrum.org/infoseekid.cgi?id=0013467 .
+
+Numera kan man utveckla program för ZX81 även i C med kompilatorn Z88DK, men
+det kräver en annan dator. Det är nog fortfarande så att det enda 
+högnivåspråket förutom BASIC som man kan använda i ZX81 är Forth. Forth är
+mycket snabbare än BASIC och underlättar utvecklingen av stora program.
+De snabbaste programmen skrivs dock i assembler (d.v.s. maskinspråk) men de 
+är svårare att utveckla i samma dator som de körs på, bl.a. eftersom de kan 
+leda till svåra fel som kräver omstart -- dessutom har varje processorfamilj
+sitt eget assemblerspråk. Processorn (CPU) i ZX81 är Z80 vilken är en utveckling
+av 8080. En senare utveckling av 8080 är 8088 och 8086 vilken utvecklats till 
+80186 (V30), 80286, 80386 (i386), 80486 (i486), Pentium o.s.v. Z80 används
+även i t.ex. grafräknarna TI-82 STATS, TI-83 och TI-84 Plus. Tydligen kan
+man göra strömsnåla apparater med Z80, men ZX81 är svår att köra energisnålt
+utan att det blir meningslöst eftersom grafiken (d.v.s. TV-bilden) genereras 
+av CPU:n.
+
+
+Mvh,
+// Mikael O. Bonnier, [@mobluse](https://twitter.com/mobluse) på Twitter, 
+// http://www.df.lth.se.orbin.se/~mikaelb/index-sve.html
