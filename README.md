@@ -246,5 +246,5 @@ av CPU:n.
 
 
 Mvh,
-// Mikael O. Bonnier, [@mobluse](https://twitter.com/mobluse) på Twitter, 
+// Mikael O. Bonnier, [@mobluse](https://twitter.com/mobluse) på Twitter,  
 // http://www.df.lth.se.orbin.se/~mikaelb/index-sve.html
