@@ -245,6 +245,6 @@ utan att det blir meningslöst eftersom grafiken (d.v.s. TV-bilden) genereras
 av CPU:n.
 
 
-Mvh,
+Mvh,  
 // Mikael O. Bonnier, [@mobluse](https://twitter.com/mobluse) på Twitter,  
 // http://www.df.lth.se.orbin.se/~mikaelb/index-sve.html
