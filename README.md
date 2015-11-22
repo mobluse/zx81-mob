@@ -129,5 +129,5 @@ energy-efficient way without it becoming meaningless because the graphics
 
 
 Sincerely,  
-// Mikael O. Bonnier, [@MOB_i_L](https://twitter.com/MOB_i_L) on Twitter,   
+// Mikael O. Bonnier, [@mobluse](https://twitter.com/mobluse) on Twitter,   
 // http://www.df.lth.se.orbin.se/~mikaelb/
