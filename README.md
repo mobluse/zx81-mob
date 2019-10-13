@@ -12,7 +12,7 @@ There is an App-Store for ZX81 here:
 http://www.df.lth.se.orbin.se/~mikaelb/sinclair/zx81/
 
 
-##A ZX81 App Store in English 
+## A ZX81 App Store in English 
 Here are applications, documents, and emulators for the Sinclair ZX81 personal
 computer.
 
@@ -133,7 +133,7 @@ Sincerely,
 // http://www.df.lth.se.orbin.se/~mikaelb/
 
 
-##A ZX81 App-Store in Swedish
+## A ZX81 App-Store in Swedish
 Här finns program, dokument och en emulator för datorn Sinclair ZX81.
 
 Sinclair ZX81 presenteras på svenska i filen zx81_beckman.pdf. En unik fördel
