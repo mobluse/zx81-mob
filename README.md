@@ -3,7 +3,7 @@ zx81-mob
 
 Programs for ZX81. Mostly in BASIC.
 
-These programs where converted by [p2txt.c](https://github.com/mobluse/zx81-mob/blob/master/converters/p2txt.c) to ZXText2P-format. I've not tested if the programs in bas-files can be converted back to p-files. The programs
+These programs where converted by [p2txt.c](https://github.com/mobluse/zx81-mob/blob/master/converters/p2txt.c) to [ZXText2P](http://freestuff.grok.co.uk/zxtext2p/)-format. I've not tested if the programs in bas-files can be converted back to p-files. The programs
 with machine-code in REM-statements will not run.
 
 About LICENSE: Only the patch-files to the original files are covered by this license, except for files that are completely my own -- they have the LICENSE for the whole program and not just for the changes. The whole patched file is shown here but you can generate the patch. In the case there are original files they can be found on various sites e.g. http://www.atariarchives.org/morebasicgames/ and have their licenses. 
