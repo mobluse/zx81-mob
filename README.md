@@ -18,11 +18,11 @@ computer.
 
 The Sinclair ZX81 is presented in Swedish in the file zx81_beckman.pdf . 
 A unique advantage with the ZX81 is that it only has 8 KB ROM (including 4 KB 
-for floating point) and four integrated circuits (IC): CPU, ROM, RAM, and a 
+for floating point and 0.5 KB for 8x8 characters) and four integrated circuits (IC): CPU, ROM, RAM, and a 
 custom made (which, however, can be built using standard circuits). Nowadays 
 you can build a ZX81 emulator (AX81) with just a single chip computer (AVR) as
 a single IC. In the mob-i-l_zx81.pdf there is a collection of articles from 
-magazines but also some documents and drawings I produced myself in the 
+magazines, but also some documents and drawings I produced myself in the 
 early 80's.
 
 In the catalog mob-i-l and subdirectories are programs in the form of P-files 
@@ -60,8 +60,8 @@ not delete data stored in variables.
 
 Another emulator is EightyOne for Windows but it works on Linux with Wine, and
 probably also in Mac OS X using Wine. EightyOne is here:  
-http://www.chuntey.com/. There is also a newer version of this which 
-can be found via the forum: http://www.rwapservices.co.uk/ZX80_ZX81/forums/. 
+https://sourceforge.net/projects/eightyone-sinclair-emulator/. There is also a newer version of this which 
+can be found via the forum: https://www.sinclairzxworld.com/. 
 
 There is an emulator for Linux: sz81: http://sz81.sourceforge.net/. When you 
 get the emulator you also get xz81 which is the one I usually tend to run
@@ -72,7 +72,7 @@ There are also ZX81 emulators for most other OSes, such as MS-DOS,
 Mac OS 7, etc. 
 
 Another forum for the ZX81 is nntp:comp.sys.sinclair which can be read on 
-http://groups.google.com/group/comp.sys.sinclair/. 
+https://groups.google.com/g/comp.sys.sinclair. 
 
 I bought the ZX81 in kit form in December 1981 after months of waiting, when I 
 was 15. In the fall of 1981 I attended a course in BASIC programming with 
@@ -87,8 +87,8 @@ cassettes. I have a similar app-store for ABC80 here:
 http://www.df.lth.se.orbin.se/~mikaelb/abc/80/. 
 
 With the ZX81 both a short Swedish and complete English manual was included
-and the English is here:  
-ftp://ftp.worldofspectrum.org/pub/sinclair/books/ZX81BASICProgramming.pdf .
+and the English is here: 
+https://worldofspectrum.net/pub/sinclair/books/z/ZX81BASICProgramming.pdf.
 
 I recommend anyone who knows English well enough to read the book. You don't 
 learn much unnecessary things and the BASIC functions are available in SQL, 
@@ -109,7 +109,7 @@ author.
 There is a video course for the ZX Spectrum, which probably is also useful for
 those who want to learn ZX81:  
 MasterClass - Sinclair ZX Spectrum: Introduction to Programming Level 1 & 2: 
-http://www.worldofspectrum.org/infoseekid.cgi?id=0013467 . 
+https://worldofspectrum.org/software?id=0013467. 
 
 Nowadays you can develop software for the ZX81 also in C with the compiler 
 z88dk, but it requires a another computer. It's probably still the case that 
@@ -137,7 +137,7 @@ Sincerely,
 Här finns program, dokument och en emulator för datorn Sinclair ZX81.
 
 Sinclair ZX81 presenteras på svenska i filen zx81_beckman.pdf. En unik fördel
-med ZX81 är att den bara har 8 KB ROM (inklusive 4 KB för flyttal) och 
+med ZX81 är att den bara har 8 KB ROM (inklusive 4 KB för flyttal och 0,5 KB för 8x8 tecken) och 
 fyra integrerade kretsar (IC): CPU, ROM, RAM och en specialtillverkad (som dock 
 kan byggas upp av standardkretsar). Numera kan man bygga en ZX81-emulator 
 (AX81) med bara en enchipsdator (AVR) som enda IC. I mob-i-l_zx81.pdf finns 
@@ -180,8 +180,8 @@ startas med GOTO 0 för att man inte skall radera data som finns i variabler.
 
 En annan emulator är EightyOne för Windows men den fungerar i Linux med Wine
 och förmodligen också i Mac OS X med Wine. EightyOne finns här:
-http://www.chuntey.com/. Det finns även en nyare version av denna som 
-man kan hitta via forumet: http://www.rwapservices.co.uk/ZX80_ZX81/forums/.
+https://sourceforge.net/projects/eightyone-sinclair-emulator/. Det finns även en nyare version av denna som 
+man kan hitta via forumet: https://www.sinclairzxworld.com/.
 
 Det finns en emulator för Linux: sz81: http://sz81.sourceforge.net/. På
 köpet får man då emulatorn xz81 vilken är den jag oftast brukar köra i
@@ -192,7 +192,7 @@ Det finns även ZX81-emulatorer för de flesta andra OS, t.ex. MS-DOS,
 Mac OS 7 m.fl.
 
 Ett annat forum för ZX81 är nntp:comp.sys.sinclair som bl.a. kan läsas på
-http://groups.google.com/group/comp.sys.sinclair/.
+https://groups.google.com/g/comp.sys.sinclair.
 
 Jag köpte ZX81 som byggsats i december 1981 efter flera månaders kö när jag 
 var 15 år. Jag gick sedan hösten 1981 en kurs i BASIC-programmering med
@@ -207,7 +207,7 @@ http://www.df.lth.se.orbin.se/~mikaelb/abc/80/.
 
 Med ZX81 följde både en kortare svensk och fullständigare engelsk manual 
 och den engelska finns bl.a. här: 
-ftp://ftp.worldofspectrum.org/pub/sinclair/books/ZX81BASICProgramming.pdf .
+https://worldofspectrum.net/pub/sinclair/books/z/ZX81BASICProgramming.pdf.
 
 Jag rekommenderar alla som kan engelska någerlunda väl att läsa den boken. 
 Man lär sig inte så mycket onödigt och BASIC-funktionerna finns i SQL, 
@@ -227,7 +227,7 @@ en annan författare.
 Det finns en videokurs för ZX Spectrum som troligen även är nyttig för dem
 som vill lära sig ZX81:
 Master Class - Sinclair ZX Spectrum: Introduction to Programming Level 1 & 2:
-http://www.worldofspectrum.org/infoseekid.cgi?id=0013467 .
+https://worldofspectrum.org/software?id=0013467.
 
 Numera kan man utveckla program för ZX81 även i C med kompilatorn Z88DK, men
 det kräver en annan dator. Det är nog fortfarande så att det enda 
