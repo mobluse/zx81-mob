@@ -208,6 +208,8 @@ http://www.df.lth.se.orbin.se/~mikaelb/abc/80/.
 Med ZX81 följde både en kortare svensk och fullständigare engelsk manual 
 och den engelska finns bl.a. här: 
 https://worldofspectrum.net/pub/sinclair/books/z/ZX81BASICProgramming.pdf.
+Den svenska här:
+http://www.df.lth.se.orbin.se/~mikaelb/sinclair/zx81/introduktion_till_zx81_basic.pdf
 
 Jag rekommenderar alla som kan engelska någerlunda väl att läsa den boken. 
 Man lär sig inte så mycket onödigt och BASIC-funktionerna finns i SQL, 
