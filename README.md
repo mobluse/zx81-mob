@@ -109,7 +109,7 @@ author.
 There is a video course for the ZX Spectrum, which probably is also useful for
 those who want to learn ZX81:  
 MasterClass - Sinclair ZX Spectrum: Introduction to Programming Level 1 & 2: 
-https://worldofspectrum.org/software?id=0013467. 
+https://youtu.be/DnoGvOghf7U https://worldofspectrum.org/software?id=0013467
 
 Nowadays you can develop software for the ZX81 also in C with the compiler 
 z88dk, but it requires a another computer. It's probably still the case that 
